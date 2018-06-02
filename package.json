@@ -1,0 +1,42 @@
+{
+  "name": "playoff",
+  "version": "0.5.0",
+  "description": "Playoff SDK for NodeJS",
+  "keywords": [
+    "playoff",
+    "auth",
+    "authentication",
+    "identity",
+    "oauth",
+    "api",
+    "sdk"
+  ],
+  "homepage": "http://dev.playoff.cc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/officina/playoff-node-sdk.git"
+  },
+  "bugs": {
+    "url": "http://github.com/officina/playoff-node-sdk/issues"
+  },
+  "author": {
+    "name": "Officina",
+    "email": "dev@playoff.com",
+    "url": "http://www.officina.cc"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./src/playoff",
+  "dependencies": {
+    "bluebird": "2.9.25",
+    "jsonwebtoken": "5.0.0",
+    "lodash": "2.4.1",
+    "mocha": "^5.2.0",
+    "request-promise": "0.4.2"
+  },
+  "devDependencies": {}
+}
