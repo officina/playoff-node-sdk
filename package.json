@@ -1,6 +1,6 @@
 {
   "name": "playoff",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "Playoff SDK for NodeJS",
   "keywords": [
     "playoff",
@@ -11,7 +11,7 @@
     "api",
     "sdk"
   ],
-  "homepage": "http://dev.playoff.cc",
+  "homepage": "http://dev.playoffgamification.io",
   "repository": {
     "type": "git",
     "url": "git://github.com/officina/playoff-node-sdk.git"

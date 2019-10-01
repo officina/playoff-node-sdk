@@ -1,13 +1,13 @@
-![Playoff Node SDK](https://dev.playoff.cc/images/assets/pl-node-sdk.png "Playoff Node SDK")
+![Playoff Node SDK](https://dev.playoffgamification.io/images/assets/pl-node-sdk.png "Playoff Node SDK")
 
 Playoff Node SDK [![NPM version](https://badge.fury.io/js/playoff.svg)](https://www.npmjs.com/package/playoff)
 =================
 
 Playoff API implementation in NodeJS. This module integrates seamlessly with the [passport-playoff](https://github.com/playoff/passport-playoff) module for authentication support.
 
-Visit the complete [API reference](http://dev.playoff.cc/docs/api)
+Visit the complete [API reference](http://dev.playoffgamification.io/docs/api)
 
-To learn more about how you can build applications on Playoff visit the [official developer documentation](http://dev.playoff.cc)
+To learn more about how you can build applications on Playoff visit the [official developer documentation](http://dev.playoffgamification.io)
 
 ##Install
 To get started simply run
@@ -51,7 +51,7 @@ pl.post("/definitions/processes/collect", { 'player_id': 'johny' }, { 'name': 'M
 
 ## Usage
 ### Create a client
-If you haven't created a client for your game yet just head over to [Playoff](http://playoff.cc) and login into your account, and go to the game settings and click on client.
+If you haven't created a client for your game yet just head over to [Playoff](http://playoffgamification.io) and login into your account, and go to the game settings and click on client.
 
 ## 1. Client Credentials Flow
 In the client page select Yes for both the first and second questions
@@ -188,8 +188,8 @@ This is thrown whenever an error occurs in each call. The Error contains the `na
 License
 =======
 Playoff NodeJS SDK  
-http://dev.playoff.cc/  
-Copyright(c) 2018, Officina S.r.l. dev@playoff.cc  
+http://dev.playoffgamification.io/  
+Copyright(c) 2019, Officina S.r.l. support@playoffgamification.io
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

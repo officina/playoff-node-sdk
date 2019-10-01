@@ -58,7 +58,7 @@ class Playoff {
 
   constructor(options) {
     this.options = options;
-    if (_.isUndefined(this.options.hostname)){ this.options.hostname='playoff.cc'}
+    if (_.isUndefined(this.options.hostname)){ this.options.hostname='playoffgamification.io'}
     if (_.isUndefined(this.options)) { throw new Error('You must pass in options'); }
     if (_.isUndefined(this.options.type)) { throw new Error('You must pass in type which can be code or client'); }
     if (!_.contains(['code', 'client'], this.options.type)) { throw new Error('You must pass in type which can be code or client'); }

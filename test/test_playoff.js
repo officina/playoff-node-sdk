@@ -14,7 +14,7 @@ pl = new Playoff({
     client_id,
     client_secret,
     version: 'v2',
-    hostname:'playoff.cc',
+    hostname:'playoffgamification.io',
     strictSSL: false
 });
 
